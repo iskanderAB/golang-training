@@ -22,8 +22,8 @@ func main() {
 
 	var broSlice = []string{"iskander", "ali", "khalladi", "mohammed", "mouin", "sami", "dali"}
 
-    broSlice = append(broSlice[:2],broSlice[3:]...)
+	broSlice = append(broSlice[:2], broSlice[3:]...)
 
-	fmt.Println("slice after cut => ", broSlice);
-	fmt.Println("execution time is equal => ", executionTime);
+	fmt.Println("slice after cut => ", broSlice)
+	fmt.Println("execution time is equal => ", executionTime)
 }
